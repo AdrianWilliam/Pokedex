@@ -1,0 +1,45 @@
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+.App {
+  height: 100%;
+}
+.top {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #00ff89;
+}
+.top a {
+  text-decoration: none;
+}
+.top h1 {
+  font-family: var(--font-title);
+  font-weight: 700;
+  color: white;
+  text-shadow: 3px 1px 1px #12121240;
+}
+.content {
+  display: flex;
+  min-height: 75%;
+}
+.container-content {
+  width: 100%;
+  min-height: 100%;
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  height: 7rem;
+  background: #242424;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  color: white;
+  font-family: var(--font-title);
+}
